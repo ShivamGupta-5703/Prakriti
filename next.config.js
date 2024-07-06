@@ -20,7 +20,7 @@ const nextConfig = {
   // Optionally, add any other Next.js config below
   reactStrictMode: true,
   images: {
-    domains: ["plant-id.ams3.cdn.digitaloceanspaces.com"],
+    domains: ["plant-id.ams3.cdn.digitaloceanspaces.com",'encrypted-tbn2.gstatic.com'],
   },
 }
 

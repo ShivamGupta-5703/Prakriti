@@ -40,14 +40,14 @@
 
 import Image from "next/image"
 
-interface ResultData {
+export interface ResultData {
   image: string
   description: string
   prevention: string[]
   supplements: { image: string; description: string }[]
 }
 
-export default function Result({ data }: { data: ResultData }) {
+export default function Result() {
   return (
     <div className="container mx-auto py-8">
       <div className="max-w-3xl mx-auto">
