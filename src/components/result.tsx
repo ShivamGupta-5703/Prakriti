@@ -47,7 +47,7 @@ export interface ResultData {
   supplements: { image: string; description: string }[]
 }
 
-export default function Result() {
+export default function Result({ data }: { data: ResultData }) {
   return (
     <div className="container mx-auto py-8">
       <div className="max-w-3xl mx-auto">
